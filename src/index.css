@@ -1,0 +1,29 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* ---------------------------------------------------------------------- */
+/* Scroll area */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  cursor: pointer;
+  background: #efefef;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+  background: #292929;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 10px;
+  background: #292929;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+/* Scroll area */
+/* ---------------------------------------------------------------------- */
